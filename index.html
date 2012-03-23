@@ -1,0 +1,167 @@
+<html>
+    <head>
+
+        <meta charset="utf-8"> <!-- *не теряем* кодировку при локальном просмотре -->
+        <title>Korolkov</title>
+
+        <!-- Описываем стили -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <style type="text/css">
+            body {
+                padding-top: 10%;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div class="container">
+
+            <!-- Main hero unit для красотушки -->
+
+            <div class="hero-unit">
+                <h1>Мысли курсовой.<small>(род. падеж)</small></h1>
+                <blockquote>
+                <p>Ум есть драгоценный камень, который более красиво сыграет в оправе скромности</p>
+                <p>студента, предпочитающего занятия своими делами шаблонной и манерной учебе. </p>
+                <p><small>Здравый ум</small></p>
+                </blockquote>
+            <!-- Создаем кнопку для открывания объекта типа *modal* -->
+                <p><a class="btn btn-info" data-toggle="modal" data-target="#myModal1"><i class="icon-tags"></i> Этапы</a></p>
+            </div>
+
+
+            <div class="modal hide" id="myModal1">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">×</a>
+                    <h3>5 этапов курсовой.</h3>
+                </div>
+                <div class="modal-body">
+
+                    <ul class="nav nav-tabs">
+
+                        <li class="active"><a href="#step1" data-toggle="tab"> Шаг#1</a></li>
+                        <li><a href="#step2" data-toggle="tab"> Шаг#2 </a></li>
+                        <li><a href="#step3" data-toggle="tab"> Шаг#3 </a></li>
+                        <li><a href="#step4" data-toggle="tab"> Шаг#4 </a></li>
+                        <li><a href="#step5" data-toggle="tab"> Шаг#5 </a></li>
+                        <li><a href="#step6" data-toggle="tab"> Шаг#6 </a></li>
+                        <li><a href="#step7" data-toggle="tab"> Шаг#7 </a></li>
+                        <li><a href="#step8" data-toggle="tab"> Шаг#8 </a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="step1">
+                            <div class="progress progress-striped active progress-success">
+                                <div class="bar"
+                                     style="width: 01%;"></div>
+                            </div>
+
+                            <h3>Предварительный этап</h3>
+                            <p>Цель предварительного этапа разработки — выявить все требования к дизайну и технологической основе проекта, а также определить цели и задачи ресурса и составить подробный план разработки проекта.
+                            <p>В ходе одной или серии предварительных встреч будет составлен «бриф о дизайне», содержащий требования к графическому оформлению проекта.
+
+
+                        </div>
+                        <div class="tab-pane" id="step2">
+                            <div class="progress progress-striped active progress-success">
+                                <div class="bar"
+                                     style="width: 10%;"></div>
+                            </div>
+
+                            <h3>Разработка дизайна и архитектуры проекта</h3>
+                            <p>Работа над дизайном сайта предполагает следующие стадии:
+                            <ul><li>Анализ требований пользовательского интерфейса.
+                            <li>Интуитивно понятная организация материала и продуманная навигация являются необходимыми условиями эффективного дизайна. Мы стремимся к тому, чтобы наши разработки были удобны и понятны любому пользователю.
+                            <li>Разработка концепции дизайна.
+                            <li>В ходе этой стадии продумывается и создается проект дизайна системы, помогающий идентифицировать решение, которое наилучшим образом представляет все функциональные возможности проекта, удовлетворяет запросам целевой аудитории и при этом соответствует всем требованиям к функциональсти сайта.
+                            <li>Одобрение дизайна.
+                            <p>Результатом работы на этапе разработки дизайна и архитектуры проекта станут эскизы всех типовых страниц веб-сайта.
+                            </ul>
+                            
+                        </div>
+                        <div class="tab-pane" id="step3">
+                            <div class="progress progress-striped active progress-success">
+                                <div class="bar"
+                                     style="width: 25%;"></div>
+                            </div>
+                            
+                            <h3>Создание технологической основы</h3>
+                            <p>На основании технического задания и утвержденной концепции дизайна будет разработана оптимальная структура базы данных, созданы действующие шаблоны всех разделов сайта, а также разработаны и настроены интерактивные сервисы.
+                            <p>Параллельно будет вестись разработка механизмов и интерфейсов системы администрирования сайта, которая позволит сотрудникам компании оперативно обновлять материалы сайта и настраивать сервисные функции.
+                            <p>На данном этапе будет создана рабочая версия сайта, готовая к наполнению текстовыми и графическими материалами.
+                            
+                        </div>
+                        <div class="tab-pane" id="step4">
+                            <div class="progress progress-striped active progress-success">
+                                <div class="bar"
+                                     style="width: 40%;"></div>
+                            </div>
+
+                            <h3>Наполнение контентом</h3>
+                            <p>На этом этапе происходит наполнение контентом баз данных сайта. При необходимости наши дизайнеры создадут и обработают дополнительные графические материалы для наполнения разделов сайта. Мы также готовы провести консультации и принять участие в написании, стилистической обработке и переводе текстовых материалов, которые будут опубликованы на сайте.
+                            <p>После создания соответствующих шаблонов и механизмов все тексты, файлы для скачивания и необходимые иллюстрации будут сверстаны либо перенесены через административный интерфейс в базу данных и опубликованы на сайте.
+                            
+                        </div>
+                        <div class="tab-pane" id="step5">
+                            <div class="progress progress-striped active progress-success">
+                                <div class="bar"
+                                     style="width: 60%;"></div>
+                            </div>
+
+                            <h3>Тестирование готового решения</h3>
+                            <p>После завершения всех работ по интеграции систем и наладке оборудования интернет-представительство будет предоставлено на тестирование преподователю.
+                            
+                        </div>
+                        <div class="tab-pane" id="step6">
+                            <div class="progress progress-striped active progress-success">
+                                <div class="bar"
+                                     style="width: 85%;"></div>
+                            </div>
+
+                            <h3>Настройка оборудования и перенос на хостинговую платформу</h3>
+                            <p>Мы готовы взять на себя консультационные функции по выбору и настройке оборудования, необходимого для размещения и корректного функционирования сайта.
+                            <p>Хорошо зная все параметры и особенности работы проекта, мы поможем вам подобрать оптимальную конфигурацию оборудования и программного обеспечения.
+
+                        </div>
+                        <div class="tab-pane" id="step7">
+                            <div class="progress progress-striped active progress-success">
+                                <div class="bar"
+                                     style="width: 98%;"></div>
+                            </div>
+
+                            <h3>Запуск проекта</h3>
+                            <p>После завершения всех процедур и работ по тестированию сайта и обучению специалистов группы поддержки проект будет готов к открытию для посетителей. На данном этапе подписываются необходимые документы о приемке-сдаче.
+
+                        </div>
+                        <div class="tab-pane" id="step8">
+                            <div class="progress progress-striped active progress-success">
+                                <div class="bar"
+                                     style="width: 100%;"></div>
+                            </div>
+
+                            <h1>PROFIT!,</h1>
+                            <p><h1>Респект</h1>
+                            <p><h1>И Уважуха.</h1>
+                            <div class="alert alert-danger">
+                                <a class="close" data-dismiss="alert">×</a>
+                                <strong>Warning!</strong> Не трогайте тигров и будьте добры с окружающими. Мир,love,Корольков.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- /container -->
+
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="bootstrap/js/jquery-1.7.2.js"></script>
+        <script src="bootstrap/js/bootstrap-modal.js"></script>
+        <script src="bootstrap/js/bootstrap-tab.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
